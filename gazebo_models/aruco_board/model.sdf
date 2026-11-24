@@ -1,0 +1,23 @@
+
+<sdf version="1.6">
+  <model name="aruco_board">
+    <static>true</static>
+    <link name="board_link">
+      <visual name="marker_surface">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>0.40 0.30</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://aruco_board/materials/scripts</uri>
+            <uri>model://aruco_board/materials/textures</uri>
+            <name>Aruco/Board</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,16 @@
+
+material Aruco/Board
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            texture_unit
+            {
+                texture aruco_board.png
+                filtering none
+            }
+        }
+    }
+}
